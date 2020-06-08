@@ -31,6 +31,9 @@ permalink: /changelog/
 * **support-rustlog**
   * `RustLog.enable` now takes an optional [CrashReporting] instance which is used to submit error-level log messages as `RustErrorException`s.
 
+* **feature-top-sites**
+  * ⚠️ **This is a breaking change**: Added `isPinned` to the top site entity, which allows application to specify top sites that are pinned by the user. This is called through `TopSiteStorage.addTopSite`.
+
 # 44.0.0
 
 * [Commits](https://github.com/mozilla-mobile/android-components/compare/v43.0.0...v44.0.0)
